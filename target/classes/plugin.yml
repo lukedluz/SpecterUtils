@@ -1,0 +1,9 @@
+main: com.lucas.specterutils.Main
+author: [Specter]
+version: 1.0
+name: SpecterUtils
+softdepend: [SpecterDiamonds, Vault, LegendChat, PlotSquared, LegendChat, PermissionsEx, SimpleClans, NameTagEdit, SpecterTop, AtlasLicense, SpecterKiller, SpecterEconomy]
+commands:
+  anuncio:
+  divulgar:
+  torre:

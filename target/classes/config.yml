@@ -1,0 +1,96 @@
+#Sumário
+#%p - player
+#%q - quantidade
+
+#Configure o captcha
+Captcha:
+  Limite: 15
+  Comando: 'tp %p 0 100 0'
+
+#Torre de cactos
+Cactus_Preço: 2000000.0
+Torre_Preço: 5000000.0
+
+#Explosivo
+Explosivo:
+  Chance: 1.0
+
+#Configure os mobs
+Mobs:
+  ZOMBIE:
+    - '100.0;givelivro %p pilhagem 10'
+
+#MinasPrivadas
+MinaPrivada:
+  103;0:
+    Money: 4000.0
+    Diamantes:
+      Porcentagem: 10.1
+      Valor: 4000.0
+    Limite:
+      Porcentagem: 0.07
+      Valor: 4.0
+      Comando: 'spawnershop %p limite %q'
+  86;0:
+    Money: 12500.0
+    Diamantes:
+      Porcentagem: 10.1
+      Valor: 12500.0
+    Limite:
+      Porcentagem: 0.07
+      Valor: 20.0
+      Comando: 'spawnershop %p limite %q'
+  99;14:
+    Money: 750000.0
+    Diamantes:
+      Porcentagem: 10.1
+      Valor: 75000.0
+    Limite:
+      Porcentagem: 0.07
+      Valor: 60.0
+      Comando: 'spawnershop %p limite %q'
+  100;14:
+    Money: 55750000.0
+    Diamantes:
+      Porcentagem: 10.1
+      Valor: 557500.0
+    Limite:
+      Porcentagem: 0.07
+      Valor: 90.0
+      Comando: 'spawnershop %p limite %q'
+  84;0:
+    Money: 1055750000.0
+    Diamantes:
+      Porcentagem: 10.0
+      Valor: 5557500.0
+    Limite:
+      Porcentagem: 0.07
+      Valor: 166.0
+      Comando: 'spawnershop %p limite %q'
+  84;1:
+    Money: 1055750000.0
+    Diamantes:
+      Porcentagem: 10.0
+      Valor: 5557500.0
+    Limite:
+      Porcentagem: 0.07
+      Valor: 166.0
+      Comando: 'spawnershop %p limite %q'
+  84;2:
+    Money: 1055750000.0
+    Diamantes:
+      Porcentagem: 10.0
+      Valor: 5557500.0
+    Limite:
+      Porcentagem: 0.07
+      Valor: 166.0
+      Comando: 'spawnershop %p limite %q'
+  84;3:
+    Money: 1055750000.0
+    Diamantes:
+      Porcentagem: 10.0
+      Valor: 5557500.0
+    Limite:
+      Porcentagem: 0.07
+      Valor: 166.0
+      Comando: 'spawnershop %p limite %q'

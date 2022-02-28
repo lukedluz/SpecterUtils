@@ -1,0 +1,3 @@
+name: SpecterUtils
+version: '${project.version}'
+main: com.lucas.specterutils.Main
